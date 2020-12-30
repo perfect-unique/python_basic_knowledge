@@ -10,6 +10,7 @@ def main():
         print('{}'.format(sum))
 
 if __name__ == '__main__':
+
    main()
    
 **第二题**在列表中按规定去除重复的内容：
@@ -25,6 +26,7 @@ def main():
     print(list)
     
 if __name__ == '__main__':
+
     main()
     
 **第三题**判断一个数是否为素数：
@@ -48,6 +50,7 @@ def main():
         else:
             print('{}是素数'.format(x))
 if __name__ == '__main__':
+
     main()
     
  **第四题**计算最大公约数：
