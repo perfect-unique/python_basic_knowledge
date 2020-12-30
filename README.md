@@ -11,7 +11,10 @@ def main():
 
 if __name__ == '__main__':
    main()
+   
 **第二题**在列表中按规定去除重复的内容：
+
+
 def main():
     
     list = [1, 2, 1, 2, 1, 1, 1]
@@ -23,7 +26,9 @@ def main():
     
 if __name__ == '__main__':
     main()
+    
 **第三题**判断一个数是否为素数：
+
 def main():
     
     while True:
@@ -44,6 +49,7 @@ def main():
             print('{}是素数'.format(x))
 if __name__ == '__main__':
     main()
+    
  **第四题**计算最大公约数：
  
  def gys(a, b):
@@ -65,7 +71,9 @@ while True:
     num1 = int(input("请随意输入第一个数:"))
     num2 = int(input("请随意输入第二个数:"))
     print(num1, "和", num2, "的最大公约数为", gys(num1, num2))
+    
 **第五题**线性查找：
+
 def sequential_search(lis, val):
     
     length = len(lis)
