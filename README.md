@@ -118,3 +118,42 @@ if __name__ == '__main__':
     LIST = [1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444]
     result = binary_search(LIST, 99)
     print(result)
+    
+    
+    
+    
+**第七题**选择排序：
+A = [64, 25, 12, 22, 11]
+
+for i in range(len(A)):
+
+    for j in range(i + 1, len(A)):
+        if A[i] < A[j]:#从大到小，改变符号则相反，
+            i = j
+
+    A[i], A[i] = A[i], A[i]
+
+print("排序后的数组：{}".format(A))
+
+**第八题**递归求和，求阶乘：
+def sum_recu(n):
+
+    '''
+    1 to n,The sum function
+    '''
+    if n <= 0:
+        return 1
+    else:
+        return n * sum_recu(n - 1)#调用函数自身
+
+print("递归求和：",sum_recu(4))
+
+
+阶乘：
+def fact(n):
+
+    if n == 1:
+        return 1
+    return n * fact(n - 1)
+    
+print(fact(4))
